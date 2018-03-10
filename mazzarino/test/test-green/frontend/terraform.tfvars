@@ -26,8 +26,4 @@ terragrunt = {
 # These are the variables we have to pass in to use the module specified in the terragrunt configuration above
 # ---------------------------------------------------------------------------------------------------------------------
 
-environment = "test"
-
 environment_type = "green"
-
-iam_tfstate_key = "test/_global/iam/terraform.tfstate"
